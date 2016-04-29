@@ -4,7 +4,7 @@ import urllib.response
 from bs4 import BeautifulSoup
 from datetime import date,timedelta
 
-# Collect all the links of the articles in the last 30 days of reuters.com
+# Collect all the links of the articles in the last 30 days fo reuters.com
 
 for i in range(30):
     d=date.today()- timedelta(days=i)
